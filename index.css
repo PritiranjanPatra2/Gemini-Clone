@@ -207,6 +207,6 @@ button:hover {
 }
 @media screen and (max-width:590px) {
     .box-con{
-        display: nonegit;
+        display: none;
     }
 }
