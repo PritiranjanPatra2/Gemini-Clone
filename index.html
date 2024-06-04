@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Header Example</title>
+    <title>Gemini Clone</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="geimi-removebg-preview.png">
 </head>
 <body>
     <div class="header">
@@ -93,7 +94,7 @@
             const chatBox = document.getElementById('chat-box');
             const message = document.createElement('div');
             message.className = 'message ' + className;
-            message.textContent = sender+":"+text;
+            message.textContent = sender+":- "+text;
             chatBox.appendChild(message);
             chatBox.scrollTop = chatBox.scrollHeight;
         }
