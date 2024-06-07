@@ -210,7 +210,8 @@ button:hover {
     height: 30px;
     border-radius: 50%;
     margin-right: 10px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
+    align-self: flex-start;
 }
 .message {
     display: flex;
